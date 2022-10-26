@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="login-form.css" rel="stylesheet">
+    </head>
+    <body>
+  <div class="nav">
+        <ul>
+            <li> <a href="index.html"> Menu </a> </li>
+            <li> <a href="login-form.html"> Login Form </a> </li>
+            <li> <a href="book.html"> Book Room </a> </li>
+            <li> <a href="order.html"> Book Meals  </a> </li>
+        </ul>
+    </div>
+    <div class="container">
+    <div class="myform">
+    <h2> Sign In With </h2>
+        <div class="social">
+                <span> 
+            <a href="#"> Facebook </a>
+            </span>
+            <span> 
+            <a href="#"> Google </a>
+            </span>
+        </div>
+        <form method="post">
+            <div class="box">
+                <label for=""> User Name </label>
+                <input type="text" name="" value="">
+            </div>
+            <div class="box">
+                <label for=""> Password </label>
+                <input type="password" name="" value="">
+            </div>
+            <div class="box">
+                
+                <input type="submit" name="" value="Sign In">
+            </div>
+            <div class="forget">
+                <p>Not a member? <a href="#"> Sign up now </a></p>
+            </div>
+        </form>
+    </div>
+        
+    </div>
+    
+    </body>
+</html>

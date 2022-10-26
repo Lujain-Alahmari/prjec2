@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="book.css" rel="stylesheet">
+    </head>
+    <body>
+
+      <div class="nav">
+        <ul>
+            <li> <a href="index.html"> Menu </a> </li>
+            <li> <a href="login-form.html"> Login Form </a> </li>
+            <li> <a href="book.html"> Book Room </a> </li>
+            <li> <a href="order.html"> Book Meals  </a> </li>
+        </ul>
+    </div>
+
+    <div class="container">
+    <div class="overlay">
+    <div class="resev">
+        <h2>MAKE YOUR RESERVATION</h2>
+        <p> Welcome, I promise you will be happy here </p>
+    </div>
+    <div class="myform">
+        <form method="post">
+            <div class="box">
+                <label for=""> Your Destination </label>
+                <input type="text" name="" value="" placeholder=" Enter Destination Or Hotel Name">
+            </div>
+              <div class="box">
+                <label for=""> Your Name </label>
+                <input type="text" name="" value="" placeholder="Enter Your Name">
+            </div>
+              <div class="box">
+                <label for=""> Your Email </label>
+                <input type="email" name="" value="" placeholder="Enter Your Email">
+            </div>
+            <div class="box">
+                <label for=""> Your Phone </label>
+                <input type="password" name="" value="" placeholder="Enter Your Phone">
+            </div>
+
+             <div class="box">
+             
+                <label for=""> Check In </label>
+                <input type="date" name="" value="">
+            </div>
+             <div class="box">
+                <label for=""> Check Out </label>
+                <input type="date" name="" value="">
+            </div>
+             <div class="box box2">
+                <label for=""> Rooms </label>
+                <input type="number" name="" value="">
+            </div>
+             <div class="box box2">
+                <label for=""> Adults </label>
+                <input type="number" name="" value="">
+            </div>
+             <div class="box box2">
+                <label for=""> Children </label>
+                <input type="number" name="" value="">
+            </div>
+            
+            <div class="box">
+                
+                <input type="submit" name="" value="Reservation">
+            </div>
+        </form>
+    </div>
+    </div>
+    </div>
+    
+    </body>
+</html>
